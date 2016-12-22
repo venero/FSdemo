@@ -1,0 +1,16 @@
+Filebench Version 1.5-alpha3
+0.000: Allocated 173MB of shared memory
+0.001: Random Read Version 3.0 personality successfully loaded
+0.001: Populating and pre-allocating filesets
+0.001: Removing largefile1 tree (if exists)
+0.002: Pre-allocating directories in largefile1 tree
+0.002: Pre-allocating files in largefile1 tree
+0.024: Waiting for pre-allocation to finish (in case of a parallel pre-allocation)
+0.024: Population and pre-allocation of filesets completed
+0.025: Starting 1 rand-read instances
+1.026: Running...
+6.026: Run took 5 seconds...
+6.026: Per-Operation Breakdown
+rand-read1           1573927ops   314759ops/s 2459.1mb/s      0.0ms/op [0.00ms -  0.04ms]
+6.026: IO Summary: 1573927 ops 314758.834 ops/s 314759/0 rd/wr 2459.1mb/s   0.0ms/op
+6.026: Shutting down processes

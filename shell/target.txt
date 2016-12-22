@@ -1,0 +1,16 @@
+Filebench Version 1.5-alpha3
+0.000: Allocated 173MB of shared memory
+0.001: FileMicro-SeqWrite Version 2.2 personality successfully loaded
+0.001: Populating and pre-allocating filesets
+0.001: Removing bigfile tree (if exists)
+0.002: Pre-allocating directories in bigfile tree
+0.002: Pre-allocating files in bigfile tree
+0.011: Waiting for pre-allocation to finish (in case of a parallel pre-allocation)
+0.011: Population and pre-allocation of filesets completed
+0.011: Starting 1 filewriter instances
+1.012: Running...
+6.013: Run took 5 seconds...
+6.013: Per-Operation Breakdown
+write-file           2360789ops   472108ops/s 461.0mb/s      0.0ms/op [0.00ms - 1248.90ms]
+6.013: IO Summary: 2360789 ops 472108.417 ops/s 0/472108 rd/wr 461.0mb/s   0.0ms/op
+6.013: Shutting down processes
